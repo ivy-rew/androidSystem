@@ -1,8 +1,7 @@
 #!/bin/bash
 
 uninstall() {
-    param=$1
-    app=${param::-1}
+    app=$1
     read -p "Delete app ${app}? [y|n]"
     if [[ $REPLY == "y" ]]; then
         echo "killing ${app}"
@@ -10,13 +9,13 @@ uninstall() {
         echo "running command on device: '${cmd}'"
         adb shell -t "${cmd}"
     else
-        echo "aborted remove off ${app}."
+        echo "aborted removal off ${app}."
     fi
 }
 
 uninstallMenu() {
   apps=$(adb shell 'pm list packages -f')
-  OPTIONS=( '!exit' ${apps[@]} )1
+  OPTIONS=( '!exit' ${apps[@]} )
 
   echo "SELECT app to uninstall"
   select OPTION in ${OPTIONS[@]}; do
@@ -24,7 +23,7 @@ uninstallMenu() {
         break
     else
         app=$(echo "${OPTION}" | sed 's/.*=//')
-        uninstall "${app}"
+        uninstall "${app::-1}"
     fi
   done
 }
