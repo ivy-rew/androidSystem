@@ -14,12 +14,23 @@ uninstall() {
 }
 
 uninstallMenu() {
+  filter=$1
   apps=$(adb shell 'pm list packages -f')
-  OPTIONS=( '!exit' ${apps[@]} )
+  if [[ ! -z "$filter" ]]; then
+    echo "filtering ${filter}"
+    apps=$(adb shell 'pm list packages -f' | grep $filter)
+  fi
 
+  OPTIONS=( '!exit' '!google' '!huawei' ${apps[@]} )
   echo "SELECT app to uninstall"
   select OPTION in ${OPTIONS[@]}; do
     if [ "$OPTION" == "!exit" ]; then
+        break
+    elif [ "$OPTION" == "!google" ]; then
+        uninstallMenu "google"
+        break
+    elif [ "$OPTION" == "!huawei" ]; then
+        uninstallMenu "huawei"
         break
     else
         app=$(echo "${OPTION}" | sed 's/.*=//')
