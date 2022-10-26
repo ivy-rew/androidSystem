@@ -58,7 +58,7 @@ uninstallMenu() {
       uninstallMenu "$REPLY"
       break
     else
-      app=$(echo "${OPTION}" | sed 's/.*=//')
+      app=$(echo "${OPTION}" | sed 's/.*://' | sed 's/.*=//')
       uninstall "${app}"
     fi
   done
