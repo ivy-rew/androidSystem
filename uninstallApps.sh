@@ -8,6 +8,7 @@ uninstall() {
     echo "killing ${app}"
     cmd="pm uninstall${uninst} --user 0 ${app}"
     echo "running command on device: '${cmd}'"
+    echo "${cmd}" >> uninstall.log 
     adb shell -t "${cmd}"
   else
     echo "aborted removal off ${app}."
