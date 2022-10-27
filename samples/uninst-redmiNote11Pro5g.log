@@ -1,0 +1,50 @@
+# redmi note 11 pro 5G
+
+pm uninstall --user 0 com.facebook.services
+pm uninstall --user 0 com.facebook.katana
+pm uninstall --user 0 com.facebook.system
+pm uninstall --user 0 com.facebook.appmanager
+
+pm uninstall --user 0 com.google.android.apps.youtube.music
+pm uninstall --user 0 com.google.android.youtube
+pm uninstall --user 0 com.google.android.apps.magazines
+pm uninstall --user 0 com.google.android.partnersetup
+# google one
+pm uninstall --user 0 com.google.android.apps.subscriptions.red
+pm uninstall --user 0 com.google.android.googlequicksearchbox
+pm uninstall --user 0 com.google.android.apps.podcasts
+pm uninstall --user 0 com.google.android.gm
+pm uninstall --user 0 com.google.android.apps.maps
+pm uninstall --user 0 com.google.android.apps.googleassistant
+pm uninstall --user 0 com.google.android.apps.walletnfcrel
+pm uninstall --user 0 com.google.android.calendar
+# google drive
+pm uninstall --user 0 com.google.android.apps.docs
+pm uninstall --user 0 com.google.android.apps.photos
+pm uninstall --user 0 com.google.android.videos
+pm uninstall --user 0 com.google.android.apps.tachyon
+pm uninstall --user 0 com.google.android.contacts
+pm uninstall --user 0 com.android.vending
+
+pm uninstall --user 0 com.alibaba.aliexpresshd
+pm uninstall --user 0 com.amazon.mShop.android.shopping
+pm uninstall --user 0 com.agoda.mobile.consumer
+pm uninstall --user 0 com.miHoYo.GenshinImpact
+pm uninstall --user 0 com.spotify.music
+pm uninstall --user 0 com.zhiliaoapp.musically
+pm uninstall --user 0 com.linkedin.android
+pm uninstall --user 0 com.netflix.mediaclient
+pm uninstall --user 0 com.tencent.igxiaomi
+
+pm uninstall --user 0 com.duokan.phone.remotecontroller
+pm uninstall --user 0 com.mi.globalbrowser
+pm uninstall --user 0 com.xiaomi.payment
+pm uninstall --user 0 com.xiaomi.midrop
+pm uninstall --user 0 com.miui.weather2
+pm uninstall --user 0 com.miui.cloudservice
+pm uninstall --user 0 com.miui.videoplayer
+pm uninstall --user 0 com.miui.miservice
+pm uninstall --user 0 com.miui.yellowpage
+pm uninstall --user 0 com.miui.cloudbackup
+pm uninstall --user 0 com.miui.micloudsync
+
