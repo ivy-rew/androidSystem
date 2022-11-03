@@ -1,20 +1,18 @@
+#!/system/bin/sh
+
 # redmi note 11 pro 5G
 ## details on the pkgs can be found here
 ## https://forum.xda-developers.com/t/debloating-miui-without-root-access-manual-method.4149707/ 
 
-pm uninstall --user 0 com.facebook.services
-pm uninstall --user 0 com.facebook.katana
-pm uninstall --user 0 com.facebook.system
-pm uninstall --user 0 com.facebook.appmanager
-
 pm uninstall --user 0 com.google.android.apps.youtube.music
-pm uninstall --user 0 com.google.android.youtube
 pm uninstall --user 0 com.google.android.apps.magazines
+pm uninstall --user 0 com.google.android.youtube
 pm uninstall --user 0 com.google.android.partnersetup
 # google one
 pm uninstall --user 0 com.google.android.apps.subscriptions.red
 pm uninstall --user 0 com.google.android.googlequicksearchbox
 pm uninstall --user 0 com.google.android.apps.podcasts
+# google mail
 pm uninstall --user 0 com.google.android.gm
 pm uninstall --user 0 com.google.android.apps.maps
 pm uninstall --user 0 com.google.android.apps.googleassistant
@@ -26,11 +24,18 @@ pm uninstall --user 0 com.google.android.apps.photos
 pm uninstall --user 0 com.google.android.videos
 pm uninstall --user 0 com.google.android.apps.tachyon
 pm uninstall --user 0 com.google.android.contacts
-pm uninstall --user 0 com.android.vending
-pm uninstall --user 0 com.android.chrome
+pm uninstall --user 0 com.google.android.syncadapters.contacts
 pm uninstall --user 0 com.google.android.apps.wellbeing
 pm uninstall --user 0 com.google.android.feedback
 pm uninstall --user 0 com.google.android.marvin.talkback
+pm uninstall --user 0 com.google.android.projection.gearhead
+pm uninstall --user 0 com.google.android.gms.location.history
+pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
+pm uninstall --user 0 com.android.bookmarkprovider
+pm uninstall --user 0 com.android.providers.partnerbookmarks
+pm uninstall --user 0 com.android.bips
+pm uninstall --user 0 com.android.vending
+pm uninstall --user 0 com.android.chrome
 
 pm uninstall --user 0 com.alibaba.aliexpresshd
 pm uninstall --user 0 com.amazon.mShop.android.shopping
@@ -41,11 +46,19 @@ pm uninstall --user 0 com.zhiliaoapp.musically
 pm uninstall --user 0 com.linkedin.android
 pm uninstall --user 0 com.netflix.mediaclient
 pm uninstall --user 0 com.tencent.igxiaomi
-
+pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
 pm uninstall --user 0 com.duokan.phone.remotecontroller
+pm uninstall --user 0 com.boundax.koreapreloadappinstaller
+pm uninstall --user 0 com.qualcomm.uimremoteclient
+pm uninstall --user 0 com.qualcomm.uimremoteserver
+
+pm uninstall --user 0 com.facebook.services
+pm uninstall --user 0 com.facebook.katana
+pm uninstall --user 0 com.facebook.system
+pm uninstall --user 0 com.facebook.appmanager
+
 pm uninstall --user 0 com.mi.globalbrowser
-pm uninstall --user 0 com.xiaomi.payment
-pm uninstall --user 0 com.xiaomi.midrop
+pm uninstall --user 0 com.mi.healthglobal
 pm uninstall --user 0 com.miui.weather2
 pm uninstall --user 0 com.miui.cloudservice
 pm uninstall --user 0 com.miui.videoplayer
@@ -53,7 +66,6 @@ pm uninstall --user 0 com.miui.miservice
 pm uninstall --user 0 com.miui.yellowpage
 pm uninstall --user 0 com.miui.cloudbackup
 pm uninstall --user 0 com.miui.micloudsync
-
 pm uninstall --user 0 com.miui.cleaner
 pm uninstall --user 0 com.miui.daemon
 pm uninstall --user 0 com.miui.msa.global
@@ -61,10 +73,19 @@ pm uninstall --user 0 com.miui.analytics
 pm uninstall --user 0 com.miui.android.fashiongallery
 pm uninstall --user 0 com.miui.bugreport
 pm uninstall --user 0 com.miui.player
-pm uninstall --user 0 com.miui.hybrid.accessory
 pm uninstall --user 0 com.miui.hybrid
-pm uninstall --user 0 com.xiaomi.mipicks
-pm uninstall --user 0 cn.wps.xiaomi.abroad.lite
+pm uninstall --user 0 com.miui.hybrid.accessory
 pm uninstall --user 0 com.miui.global.packageinstaller
-pm uninstall --user 0 com.mi.healthglobal
+pm uninstall --user 0 com.miui.fmservice
+pm uninstall --user 0 com.miui.mishare.connectivity
+pm uninstall --user 0 com.miui.fm
+pm uninstall --user 0 com.milink.service
+pm uninstall --user 0 com.mmigroup.fmradio
+pm uninstall --user 0 com.xiaomi.miplay_client
+pm uninstall --user 0 com.xiaomi.mi_connect_service
+pm uninstall --user 0 com.xiaomi.mipicks
+pm uninstall --user 0 com.xiaomi.payment
+pm uninstall --user 0 com.xiaomi.midrop
 
+pm uninstall --user 0 cn.wps.xiaomi.abroad.lite
+pm uninstall --user 0 cn.wps.moffice_eng
