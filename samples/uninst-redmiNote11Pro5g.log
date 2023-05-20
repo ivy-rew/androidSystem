@@ -89,3 +89,5 @@ pm uninstall --user 0 com.xiaomi.midrop
 
 pm uninstall --user 0 cn.wps.xiaomi.abroad.lite
 pm uninstall --user 0 cn.wps.moffice_eng
+pm uninstall --user 0 com.xiaomi.glgm
+
