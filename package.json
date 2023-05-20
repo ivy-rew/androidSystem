@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "adb-wifi": "^0.1.2"
+  }
+}

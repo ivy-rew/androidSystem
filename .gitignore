@@ -1,1 +1,5 @@
 uninstall.log
+
+#script install
+platform-tools
+node_modules
