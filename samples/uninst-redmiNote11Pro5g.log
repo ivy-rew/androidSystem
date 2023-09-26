@@ -92,3 +92,10 @@ pm uninstall --user 0 cn.wps.xiaomi.abroad.lite
 pm uninstall --user 0 cn.wps.moffice_eng
 pm uninstall --user 0 com.xiaomi.glgm
 
+#After Sales
+pm uninstall --user 0 com.mi.AutoTest
+
+pm uninstall --user 0 com.xiaomi.finddevice
+pm uninstall --user 0 com.google.android.printservice.recommendation
+pm uninstall --user 0 com.goodix.fingerprint
+pm uninstall --user 0 com.silead.fingerprint
