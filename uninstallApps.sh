@@ -1,5 +1,11 @@
 #!/bin/bash
 
+adb="./platform-tools/adb"
+if ! [ -f "${adb}" ]; then
+  adb="adb"
+fi
+${adb} --version
+
 uninst=""
 uninstall() {
   app=$1
@@ -9,7 +15,7 @@ uninstall() {
     cmd="pm uninstall${uninst} --user 0 ${app}"
     echo "running command on device: '${cmd}'"
     echo "${cmd}" >> uninstall.log 
-    adb shell -t "${cmd}"
+    ${adb} shell -t "${cmd}"
   else
     echo "aborted removal off ${app}."
   fi
@@ -18,12 +24,12 @@ uninstall() {
 list=""
 listPkgs() {
   cmd="pm list packages ${list}"
-  adb shell "${cmd}"
+  ${adb} shell "${cmd}"
 }
 
 pkg() {
   cmd="pm"
-  adb shell "${cmd}"
+  ${adb} shell "${cmd}"
 }
 
 uninstallMenu() {
