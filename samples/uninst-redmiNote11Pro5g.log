@@ -99,3 +99,6 @@ pm uninstall --user 0 com.xiaomi.finddevice
 pm uninstall --user 0 com.google.android.printservice.recommendation
 pm uninstall --user 0 com.goodix.fingerprint
 pm uninstall --user 0 com.silead.fingerprint
+
+#App Vault
+pm uninstall --user 0 com.mi.globalminusscreen
