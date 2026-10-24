@@ -1,430 +1,621 @@
-  7) package:com.android.updater
-  8) package:com.miui.powerkeeper
-  9) package:com.qti.phone
- 10) package:com.miui.miservice
- 11) package:com.google.android.overlay.modules.permissioncontroller.forframework
- 12) package:com.miui.miwallpaper.overlay.customize
- 13) package:com.mi.android.globalFileexplorer
- 14) package:android.miui.overlay
- 15) package:com.goodix.gftest
- 16) package:com.miui.msa.global
- 17) package:android.miui.home.launcher.res
- 18) package:com.qualcomm.qti.cne
- 19) package:cn.wps.moffice_eng
- 20) package:com.android.systemui.accessibility.accessibilitymenu
- 21) package:com.android.dreams.phototable
- 22) package:com.android.overlay.gmscontactprovider
- 23) package:com.android.providers.contacts
- 24) package:com.google.android.apps.nbu.files
- 25) package:com.qualcomm.uimremoteserver
- 26) package:com.android.companiondevicemanager
- 27) package:com.android.cts.priv.ctsshim
- 28) package:com.android.providers.downloads
- 29) package:com.android.bluetoothmidiservice
- 30) package:com.facebook.appmanager
- 31) package:com.android.credentialmanager
- 32) package:com.xiaomi.xmsf
- 33) package:android.miui.overlay.telephony
- 34) package:com.google.android.printservice.recommendation
- 35) package:com.miui.autoui.ext
- 36) package:com.google.android.captiveportallogin
- 37) package:com.google.android.networkstack
- 38) package:com.miui.phone.carriers.overlay.vodafone
- 39) package:com.android.keychain
- 40) package:com.longcheertel.cit
- 41) package:com.google.android.accessibility.switchaccess
- 42) package:com.google.android.overlay.gmsconfig.asi
- 43) package:com.miui.global.packageinstaller
- 44) package:com.qti.service.colorservice
- 45) package:com.xiaomi.aiservice
- 46) package:com.qualcomm.qti.qms.service.connectionsecurity
- 47) package:com.android.overlay.circletosearch
- 48) package:com.qualcomm.qti.confdialer
- 49) package:com.android.shell
- 50) package:com.miui.micloudsync
- 51) package:com.google.android.wifi.dialog
- 52) package:com.google.android.ondevicepersonalization.services
- 53) package:com.wdstechnology.android.kryten
- 54) package:com.google.android.overlay.modules.healthfitness.forframework
- 55) package:com.android.bookmarkprovider
- 56) package:com.miui.rom
- 57) package:com.android.DeviceAsWebcam
- 58) package:com.miui.core.internal.services
- 59) package:com.google.android.wifi.resources.overlay.target
- 60) package:com.android.sharedstoragebackup
- 61) package:com.android.imsserviceentitlement
- 62) package:com.qualcomm.qti.uimGbaApp
- 63) package:com.android.providers.media
- 64) package:com.android.providers.calendar
- 65) package:com.android.providers.blockednumber
- 66) package:com.google.android.documentsui
- 67) package:com.xiaomi.joyose
- 68) package:com.android.statementservice
- 69) package:com.miui.audiomonitor
- 70) package:com.android.proxyhandler
- 71) package:com.google.android.overlay.modules.permissioncontroller
- 72) package:com.android.emergency
- 73) package:com.google.android.gms.location.history
- 74) package:com.miui.aod
- 75) package:com.qualcomm.location
- 76) package:com.google.android.gm
- 77) package:com.android.carrierdefaultapp
- 78) package:com.android.backupconfirm
- 79) package:com.google.android.apps.tachyon
- 80) package:com.google.android.hotspot2.osulogin
- 81) package:com.android.server.telecom.overlay.miui
- 82) package:com.android.mtp
- 83) package:com.xiaomi.hypercomm
- 84) package:com.android.phone.auto_generated_characteristics_rro
- 85) package:com.miui.screenrecorder
- 86) package:com.google.android.apps.magazines
- 87) package:com.android.theme.font.notoserifsource
- 88) package:com.qualcomm.qti.remoteSimlockAuth
- 89) package:com.qti.ltebc
- 90) package:com.qualcomm.qti.xrcb
- 91) package:com.android.ncm.overlay.common
- 92) package:com.miui.guardprovider
- 93) package:com.miui.cloudbackup
- 94) package:com.android.wallpapercropper
- 95) package:com.google.android.wifi.resources.overlay.common
- 96) package:com.xiaomi.glgm
- 97) package:com.google.android.overlay.gmsconfig.geotz
- 98) package:com.android.internal.systemui.navbar.gestural
- 99) package:com.android.soundrecorder
-100) package:com.miui.systemui.overlay.devices.android
-101) package:com.android.settings.intelligence
-102) package:com.qualcomm.timeservice
-103) package:com.android.devicediagnostics
-104) package:com.lbe.security.miui
-105) package:com.xiaomi.midrop
-106) package:com.google.android.overlay.gmsconfig.personalsafety
-107) package:com.qualcomm.wfd.service
-108) package:com.block.puzzle.game.hippo.mi
-109) package:com.android.overlay.gmssettings
-110) package:com.google.android.federatedcompute
-111) package:com.google.android.webview
-112) package:com.google.android.sdksandbox
-113) package:com.miui.securityadd
-114) package:com.google.android.cellbroadcastservice
-115) package:com.android.thememanager.customizethemeconfig.config.overlay
-116) package:com.android.internal.systemui.navbar.threebutton
-117) package:com.android.egg
-118) package:com.xiaomi.touchservice
-119) package:com.google.android.overlay.modules.modulemetadata.forframework
-120) package:com.miui.gallery
-121) package:com.google.android.packageinstaller
-122) package:com.android.se
-123) package:com.alibaba.aliexpresshd
-124) package:com.google.android.apps.youtube.music
-125) package:com.android.stk
-126) package:com.android.overlay.systemui
-127) package:com.miui.calculator
-128) package:com.android.bips
-129) package:com.qualcomm.qti.telephonyservice
-130) package:com.google.android.partnersetup
-131) package:com.xiaomi.bluetooth
-132) package:com.xiaomi.phone.overlay
-133) package:com.google.android.projection.gearhead
-134) package:com.qualcomm.qti.xrwifi
-135) package:com.qualcomm.qti.simcontacts
-136) package:com.android.overlay.gmstelephony
-137) package:com.xiaomi.finddevice
-138) package:com.google.android.feedback
-139) package:com.miui.notification
-140) package:org.codeaurora.ims
-141) package:android.autoinstalls.config.Xiaomi.model
-142) package:android.auto_generated_characteristics_rro
-143) package:com.google.android.inputmethod.latin
-144) package:com.android.phone.cust.overlay.miui
-145) package:miui.systemui.plugin
-146) package:com.miui.bugreport
-147) package:com.miui.yellowpage
-148) package:cn.wps.xiaomi.abroad.lite
-149) package:com.google.android.uwb.resources
-150) package:com.android.providers.downloads.ui
-151) package:com.android.ons
-152) package:com.google.android.healthconnect.controller
-153) package:com.mi.globallayout
-154) package:com.xiaomi.ugd
-155) package:com.miui.mediaeditor
-156) package:com.google.android.setupwizard
-157) package:com.miui.system
-158) package:com.qualcomm.qti.server.qtiwifi
-159) package:com.miui.securitycenter
-160) package:com.android.simappdialog
-161) package:com.android.wallpaper.livepicker
-162) package:com.android.systemui.overlay.common
-163) package:com.qualcomm.qti.poweroffalarm
-164) package:com.miui.miwallpaper.config.overlay
-165) package:com.android.internal.display.cutout.emulation.waterfall
-166) package:com.miui.qr
-167) package:com.xiaomi.cameramind
-168) package:com.google.android.overlay.modules.ext.services
-169) package:com.android.uwb.resources.overlay.common
-170) package:com.android.systemui.gesture.line.overlay
-171) package:com.android.traceur
-172) package:com.google.android.apps.messaging
-173) package:com.qualcomm.qti.services.systemhelper
-174) package:com.android.location.fused
-175) package:com.android.cellbroadcastreceiver
-176) package:com.google.android.googlequicksearchbox
-177) package:com.google.android.modulemetadata
-178) package:com.android.settings.overlay.common
-179) package:vendor.qti.frameworks.utils
-180) package:com.miui.home
-181) package:com.google.android.ext.services
-182) package:com.google.android.configupdater
-183) package:android.qvaoverlay.common
-184) package:com.qti.qcc
-185) package:org.ifaa.aidl.manager
-186) package:com.mintgames.wordtrip
-187) package:com.google.android.gms.supervision
-188) package:com.android.virtualization.terminal
-189) package:com.google.android.server.deviceconfig.resources
-190) package:com.google.android.apps.photos
-191) package:com.xiaomi.aiasst.vision
-192) package:com.qualcomm.qti.workloadclassifier
-193) package:com.android.internal.display.cutout.emulation.corner
-194) package:com.google.android.gms
-195) package:com.mintgames.triplecrush.tile.fun
-196) package:com.xiaomi.mtb
-197) package:com.mi.appfinder
-198) package:com.android.systemui.overlay.miui
-199) package:com.milink.service
-200) package:com.android.thememanager
-201) package:com.android.inputsettings.overlay.miui
-202) package:com.miui.huanji
-203) package:com.android.printspooler
-204) package:com.miui.systemui.devices.overlay
-205) package:com.miui.misound
-206) package:com.google.android.apps.setupwizard.searchselector
-207) package:com.qualcomm.qti.uim
-208) package:com.facebook.system
-209) package:com.android.soundpicker
-210) package:com.mi.global.shop
-211) package:com.google.mainline.telemetry
-212) package:com.miui.wallpaper.overlay.customize
-213) package:com.android.microdroid.empty_payload
-214) package:com.android.providers.telephony.auto_generated_characteristics_rro
-215) package:com.android.nfc.resources.overlay.common
-216) package:com.google.android.cellbroadcastservice.overlay.miui
-217) package:com.android.externalstorage
-218) package:vendor.qti.imsdatachannel
-219) package:com.android.server.telecom
-220) package:com.qualcomm.qtil.aptxacu
-221) package:com.android.camera
-222) package:com.miui.daemon
-223) package:com.android.companiondevicemanager.auto_generated_characteristics_rro
-224) package:com.google.android.providers.media.module
-225) package:com.qualcomm.qti.server.wigig.tethering.rro
-226) package:com.android.calllogbackup
-227) package:com.qualcomm.atfwd
-228) package:com.miui.videoplayer
-229) package:com.linkedin.android
-230) package:com.google.android.overlay.gmsconfig.comms
-231) package:com.miui.securitycore
-232) package:com.xiaomi.trustservice
-233) package:com.jewelsblast.ivygames.Adventure.free
-234) package:com.amazon.mShop.android.shopping
-235) package:com.android.dreams.basic
-236) package:com.google.android.calendar
-237) package:com.google.android.contacts
-238) package:com.android.mms.service
-239) package:com.google.android.cellbroadcastreceiver
-240) package:com.miui.mediaviewer
-241) package:com.google.android.uwb.resources.overlay.common
-242) package:com.google.android.photopicker
-243) package:com.xiaomi.bluetooth.rro.device.config.overlay
-244) package:com.xiaomi.phone
-245) package:com.xiaomi.micloud.sdk
-246) package:com.google.android.apps.wellbeing
-247) package:com.qualcomm.qti.devicestatisticsservice
-248) package:com.android.virtualmachine.res
-249) package:com.google.android.adservices.api
-250) package:com.android.wifi.resources.xiaomi
-251) package:com.miuix.editor
-252) package:com.xiaomi.scanner
-253) package:com.android.inputdevices
-254) package:com.google.android.appsearch.apk
-255) package:com.android.providers.telephony.overlay.miui
-256) package:com.qti.qualcomm.datastatusnotification
-257) package:com.miui.weather2
-258) package:com.qti.dpmserviceapp
-259) package:com.google.android.onetimeinitializer
-260) package:com.google.android.permissioncontroller
-261) package:com.android.carrierconfig.overlay.miui
-262) package:com.android.apps.tag
-263) package:com.miui.permissioncontroller.overlay
-264) package:com.xiaomi.mipicks
-265) package:com.qualcomm.qti.ridemodeaudio
-266) package:com.qualcomm.qti.ims
-267) package:com.google.android.overlay.modules.documentsui
-268) package:com.xiaomi.smarthome
-269) package:com.google.android.devicelockcontroller
-270) package:com.miui.android.fashiongallery
-271) package:com.miui.settings.rro.device.hide.statusbar.overlay
-272) package:com.xiaomi.account
-273) package:com.android.cellbroadcastreceiver.overlay.common
-274) package:com.miui.thirdappassistant
-275) package:com.android.managedprovisioning
-276) package:com.miui.mishare.connectivity
-277) package:com.microsoftsdk.crossdeviceservicebroker
-278) package:com.zhiliaoapp.musically
-279) package:com.xiaomi.mi_connect_service
-280) package:com.android.nfc
-281) package:com.android.carrierconfig.overlay.common
-282) package:com.google.android.gsf
-283) package:com.android.systemui.navigation.bar.overlay
-284) package:com.mi.globalbrowser
-285) package:com.android.internal.display.cutout.emulation.double
-286) package:com.android.networkstack.overlay.miui
-287) package:com.xiaomi.simactivate.service
-288) package:com.google.android.health.connect.backuprestore
-289) package:com.mi.globalminusscreen
-290) package:com.android.server.telecom.overlay.common
-291) package:com.qualcomm.qti.xrvd.service
-292) package:com.android.managedprovisioning.overlay
-293) package:com.android.systemui
-294) package:com.sukhavati.gotoplaying.bubble.BubbleShooter.mint
-295) package:com.st.android.nfc_extensions_16
-296) package:com.google.android.dialer
-297) package:com.qualcomm.qti.uceShimService
-298) package:com.android.role.notes.enabled
-299) package:com.netflix.mediaclient
-300) package:com.google.android.wifi.resources.xiaomi
-301) package:com.mi.global.bbs
-302) package:com.qti.xdivert
-303) package:com.qti.dcf
-304) package:com.google.mainline.adservices
-305) package:com.qualcomm.qti.qcolor
-306) package:com.xiaomi.aicr
-307) package:com.android.settings.overlay.miui
-308) package:com.android.hotwordenrollment.okgoogle
-309) package:com.miui.player
-310) package:com.miui.cleaner
-311) package:com.android.avatarpicker
-312) package:com.miui.phrase
-313) package:com.miui.extraphoto
-314) package:com.android.deskclock
-315) package:com.android.wallpaperbackup
-316) package:com.miui.wallpaper.overlay
-317) package:vendor.qti.bluetooth.xpan
-318) package:com.miui.core
-319) package:com.miui.settings.rro.device.type.overlay
-320) package:com.android.localtransport
-321) package:android
-322) package:com.duokan.phone.remotecontroller
-323) package:com.miui.compass
-324) package:com.longcheertel.AutoTest
-325) package:com.logame.eliminateintruder3d
-326) package:com.android.hotwordenrollment.xgoogle
-327) package:com.qualcomm.qti.dynamicddsservice
-328) package:com.google.android.apps.walletnfcrel
-329) package:com.block.juggle
-330) package:com.android.pacprocessor
-331) package:com.miui.accessibility
-332) package:com.miui.phone.carriers.overlay.h3g
-333) package:com.miui.cotaservice
-334) package:com.google.android.safetycenter.resources
-335) package:com.google.android.overlay.gmsconfig.searchselector
-336) package:com.android.internal.display.cutout.emulation.hole
-337) package:com.android.settings
-338) package:com.android.internal.display.cutout.emulation.tall
-339) package:com.google.android.networkstack.tethering
-340) package:com.xiaomi.discover
-341) package:com.android.cameraextensions
-342) package:com.bsp.logmanager
-343) package:com.miui.notes
-344) package:com.android.carrierconfig
-345) package:com.google.android.videos
-346) package:com.xiaomi.continuity.sdkapp
-347) package:com.google.android.ext.shared
-348) package:com.google.android.apps.bard
-349) package:com.xiaomi.xmsfkeeper
-350) package:com.android.chrome
-351) package:com.qualcomm.qcrilmsgtunnel
-352) package:android.overlay.common
-353) package:com.facebook.services
-354) package:com.google.android.apps.maps
-355) package:com.android.compos.payload
-356) package:com.google.android.apps.chromecast.app
-357) package:com.google.android.as
-358) package:com.android.musicfx
-359) package:com.android.internal.systemui.navbar.transparent
-360) package:android.aosp.overlay.telephony
-361) package:com.google.android.marvin.talkback
-362) package:vendor.qti.hardware.cacert.server
-363) package:com.google.android.wifi.resources
-364) package:com.miui.miwallpaper
-365) package:vendor.qti.data.ntnsatapp
-366) package:com.android.intentresolver
-367) package:com.google.android.apps.docs
-368) package:com.miui.misightservice
-369) package:com.miui.vsimcore
-370) package:com.android.certinstaller
-371) package:com.google.android.apps.safetyhub
-372) package:com.qualcomm.uimremoteclient
-373) package:com.android.wifi.dialog
-374) package:com.google.android.apps.restore
-375) package:com.qualcomm.atfwd2
-376) package:com.miui.systemui.carriers.overlay
-377) package:com.xiaomi.calendar
-378) package:com.miui.backup
-379) package:com.qualcomm.qti.powersavemode
-380) package:com.android.providers.telephony
-381) package:com.miui.settings.rro.device.config.overlay
-382) package:com.xiaomi.barrage
-383) package:com.google.android.rkpdapp
-384) package:com.android.providers.settings
-385) package:com.android.overlay.gmssettingprovider
-386) package:vendor.qti.iwlan
-387) package:com.android.phone
-388) package:com.nf.snake
-389) package:com.google.android.apps.subscriptions.red
-390) package:com.android.stk.overlay.miui
-391) package:android.aosp.overlay
-392) package:com.android.bluetooth.overlay
-393) package:com.google.android.as.oss
-394) package:com.android.overlay.gmstelecomm
-395) package:com.xiaomi.entitlement.o2
-396) package:com.orange.update
-397) package:com.android.vpndialogs
-398) package:com.miui.screenshot
-399) package:com.google.android.overlay.gmsconfig.photos
-400) package:com.google.android.tts
-401) package:com.android.wifi.resources.overlay.common
-402) package:com.google.android.cellbroadcastreceiver.overlay.miui
-403) package:com.android.phone.overlay.common
-404) package:com.android.htmlviewer
-405) package:com.qti.qualcomm.deviceinfo
-406) package:com.android.vending
-407) package:com.google.android.overlay.modules.captiveportallogin.forframework
-408) package:android.overlay.target
-409) package:com.miui.system.overlay
-410) package:com.android.providers.settings.overlay
-411) package:com.google.android.overlay.gmsconfig.gsa
-412) package:com.android.providers.userdictionary
-413) package:com.android.providers.contactkeys
-414) package:com.google.android.overlay.gmsconfig.common
-415) package:com.android.cts.ctsshim
-416) package:com.android.bluetooth
-417) package:com.google.android.ncm.overlay.common
-418) package:com.android.storagemanager
-419) package:com.fingerprints.sensortesttool
-420) package:com.miui.cloudservice
-421) package:com.ordinaryjoy.woodblast
-422) package:com.miui.miwallpaper.overlay
-423) package:com.android.phone.overlay.miui
-424) package:com.xiaomi.misettings
-425) package:com.android.wifi.resources.overlay.target
-426) package:com.android.providers.partnerbookmarks
-427) package:com.amazon.appmanager
-428) package:com.android.provision
-429) package:com.google.ambient.streaming
-430) package:com.qualcomm.qti.qms.service.trustzoneaccess
-431) package:com.facebook.katana
-432) package:com.android.dynsystem
-433) package:com.google.android.overlay.devicelockcontroller
-434) package:com.google.android.apps.adm
-435) package:com.google.android.connectivity.resources
-436) package:com.google.android.youtube
+# Redmi 15 preinstalled package inventory
+
+Package-name classification only: this inventory is incomplete (the capture begins at original item 7), and a package name alone does not prove an app is spyware. Treat every package not explicitly listed as an optional candidate below as KEEP / REVIEW BY DEFAULT. The categorized lists are practical recommendations; the full captured inventory follows as reference.
+
+Remove only one optional app at a time, reboot, then test calling, SMS, mobile data, Wi-Fi, Bluetooth, camera, notifications, account sign-in, Play Store, and updates. `pm uninstall --user 0` is usually reversible with `cmd package install-existing <package>`, but not guaranteed for every package. Avoid batch removal of unknown packages.
+
+## DO NOT REMOVE — Android and phone essentials
+
+These are foundational components for boot, settings, system UI, app installation/permissions, networking, phone/SMS, storage, and device operation. Keep the listed core and all other Android, telephony, carrier, overlay, and vendor components unless their role is verified.
+
+Keep the current dialer, messaging, contacts, and keyboard apps unless replacements are installed and selected first.
+
+android
+com.android.systemui
+com.android.settings
+com.android.phone
+com.android.server.telecom
+com.android.providers.settings
+com.android.providers.telephony
+com.android.providers.media
+com.android.providers.downloads
+com.android.providers.contacts
+com.android.providers.calendar
+com.google.android.contacts
+com.google.android.dialer
+com.google.android.apps.messaging
+com.google.android.inputmethod.latin
+com.google.android.permissioncontroller
+com.google.android.packageinstaller
+com.android.shell
+com.google.android.networkstack
+com.android.networkstack.overlay.miui
+com.android.bluetooth
+com.android.nfc
+com.android.location.fused
+com.android.mms.service
+com.android.keychain
+com.android.externalstorage
+com.android.intentresolver
+com.android.carrierconfig
+com.android.managedprovisioning
+com.google.android.setupwizard
+com.android.updater
+com.google.android.webview
+
+## KEEP — Google foundation
+
+Keep these if Google sign-in, Play Store, Play services notifications, or app compatibility matters. Standalone Google apps such as Gmail, Maps, Photos, YouTube, and News are optional individually; removing them does not require removing the foundation below.
+
+com.google.android.gms
+com.google.android.gsf
+com.android.vending
+com.google.android.setupwizard
+com.google.android.permissioncontroller
+com.google.android.packageinstaller
+com.google.android.webview
+com.google.android.modulemetadata
+com.google.android.configupdater
+com.google.android.ext.services
+com.google.android.ext.shared
+com.google.android.onetimeinitializer
+com.google.android.providers.media.module
+com.google.android.documentsui
+
+## KEEP — Xiaomi / MIUI and bootloader-unlock path
+
+Preserve Xiaomi account, device binding, Find Device, Mi Cloud, security, updater, and MIUI system services until the Mi account is bound and unlock-request eligibility is confirmed. Retaining these packages preserves a possible route to request/bind; it does not guarantee Xiaomi will approve unlocking. The community app may need to be installed or updated separately according to the device's region and Xiaomi's current rules.
+
+com.xiaomi.account
+com.xiaomi.finddevice
+com.xiaomi.xmsf
+com.xiaomi.xmsfkeeper
+com.xiaomi.micloud.sdk
+com.miui.micloudsync
+com.xiaomi.simactivate.service
+com.miui.securitycenter
+com.miui.miservice
+com.miui.system
+com.miui.core
+com.miui.home
+com.miui.rom
+com.miui.daemon
+com.android.updater
+
+## KEEP — Qualcomm / device and carrier support
+
+Keep Qualcomm/QTI, modem, IMS, SIM, carrier overlays, hardware, and vendor services. Their package names are not sufficient to judge safety, and removal can break cellular service or device features.
+
+## OPTIONAL REMOVE — games
+
+Clearly identifiable preloaded games; remove only if unwanted.
+
+com.block.puzzle.game.hippo.mi
+com.mintgames.wordtrip
+com.mintgames.triplecrush.tile.fun
+com.jewelsblast.ivygames.Adventure.free
+com.logame.eliminateintruder3d
+com.block.juggle
+com.ordinaryjoy.woodblast
+com.nf.snake
+com.sukhavati.gotoplaying.bubble.BubbleShooter.mint
+
+## OPTIONAL REMOVE — shopping, ads, and recommendations
+
+These are user-facing promotions, shopping/reseller, or recommendation apps. Xiaomi promotional and ads packages can affect recommendations; the old removal log shows a preference for removing the feed, analytics, and browser. The prior analytics package is not in this captured inventory.
+
+com.alibaba.aliexpresshd
+com.amazon.mShop.android.shopping
+com.amazon.appmanager
+com.mi.global.shop
+com.xiaomi.mipicks
+com.xiaomi.discover
+com.mi.globalminusscreen
+com.mi.globalbrowser
+com.miui.msa.global
+com.miui.yellowpage
+com.miui.thirdappassistant
+
+## OPTIONAL REMOVE — social media and related services
+
+Remove if these networks and their integrations are not used. The Facebook-named packages here are background installer/integration components rather than the Facebook app itself. Xiaomi Community is the official Xiaomi fan forum/community app; regional bootloader-unlock flows may require it, so keep it until binding and eligibility are confirmed.
+
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+com.facebook.katana
+com.linkedin.android
+com.zhiliaoapp.musically
+com.mi.global.bbs
+
+### Prior Redmi removals (historical; not all appear in this capture)
+
+com.mi.globalminusscreen
+com.miui.analytics
+com.mi.globalbrowser
+
+## OPTIONAL REMOVE — news, entertainment, and standalone apps
+
+Optional when unused. This includes standalone Google apps, streaming/media, and bundled utilities; do not remove the Google foundation above. Some Xiaomi tools may be useful for local device features, so test before removing.
+
+com.google.android.apps.magazines
+com.google.android.gm
+com.google.android.apps.maps
+com.google.android.apps.photos
+com.google.android.youtube
+com.google.android.apps.youtube.music
+com.google.android.videos
+com.netflix.mediaclient
+com.google.android.apps.tachyon
+com.google.android.apps.chromecast.app
+com.google.android.apps.docs
+com.google.android.apps.walletnfcrel
+com.google.android.calendar
+com.google.android.googlequicksearchbox
+com.miui.weather2
+com.miui.gallery
+com.miui.player
+com.miui.videoplayer
+com.miui.calculator
+com.miui.notes
+com.miui.compass
+com.miui.screenrecorder
+com.miui.mediaeditor
+com.miui.android.fashiongallery
+com.xiaomi.smarthome
+com.xiaomi.scanner
+com.xiaomi.midrop
+com.miui.mishare.connectivity
+cn.wps.moffice_eng
+cn.wps.xiaomi.abroad.lite
+
+## REVIEW / KEEP UNTIL TESTED — all other captured packages
+
+Every package in the full inventory that is not an optional candidate above is KEEP / REVIEW by default. In particular, do not remove unknown diagnostics, system overlays, framework modules, accessibility, security, backup, input, connectivity, or vendor services based on a name guess.
+
+### Privacy-sensitive packages — review settings before removal
+
+These names suggest advertising, personalization, telemetry, location-history, feedback, or device-optimization functions. That is not evidence of spyware. Prefer reviewing account privacy controls, permissions, and diagnostics settings first; removing modules may affect compatibility. Keep the Google foundation above if Play services and account sign-in matter.
+
+com.google.android.ondevicepersonalization.services
+com.google.android.federatedcompute
+com.google.android.adservices.api
+com.google.mainline.adservices
+com.google.mainline.telemetry
+com.google.android.feedback
+com.google.android.gms.location.history
+com.xiaomi.joyose
+com.miui.bugreport
+
+## Full captured package inventory — reference, not a blanket uninstall list
+
+com.android.updater
+com.miui.powerkeeper
+com.qti.phone
+com.miui.miservice
+com.google.android.overlay.modules.permissioncontroller.forframework
+com.miui.miwallpaper.overlay.customize
+com.mi.android.globalFileexplorer
+android.miui.overlay
+com.goodix.gftest
+com.miui.msa.global
+android.miui.home.launcher.res
+com.qualcomm.qti.cne
+cn.wps.moffice_eng
+com.android.systemui.accessibility.accessibilitymenu
+com.android.dreams.phototable
+com.android.overlay.gmscontactprovider
+com.android.providers.contacts
+com.google.android.apps.nbu.files
+com.qualcomm.uimremoteserver
+com.android.companiondevicemanager
+com.android.cts.priv.ctsshim
+com.android.providers.downloads
+com.android.bluetoothmidiservice
+com.facebook.appmanager
+com.android.credentialmanager
+com.xiaomi.xmsf
+android.miui.overlay.telephony
+com.google.android.printservice.recommendation
+com.miui.autoui.ext
+com.google.android.captiveportallogin
+com.google.android.networkstack
+com.miui.phone.carriers.overlay.vodafone
+com.android.keychain
+com.longcheertel.cit
+com.google.android.accessibility.switchaccess
+com.google.android.overlay.gmsconfig.asi
+com.miui.global.packageinstaller
+com.qti.service.colorservice
+com.xiaomi.aiservice
+com.qualcomm.qti.qms.service.connectionsecurity
+com.android.overlay.circletosearch
+com.qualcomm.qti.confdialer
+com.android.shell
+com.miui.micloudsync
+com.google.android.wifi.dialog
+com.google.android.ondevicepersonalization.services
+com.wdstechnology.android.kryten
+com.google.android.overlay.modules.healthfitness.forframework
+com.android.bookmarkprovider
+com.miui.rom
+com.android.DeviceAsWebcam
+com.miui.core.internal.services
+com.google.android.wifi.resources.overlay.target
+com.android.sharedstoragebackup
+com.android.imsserviceentitlement
+com.qualcomm.qti.uimGbaApp
+com.android.providers.media
+com.android.providers.calendar
+com.android.providers.blockednumber
+com.google.android.documentsui
+com.xiaomi.joyose
+com.android.statementservice
+com.miui.audiomonitor
+com.android.proxyhandler
+com.google.android.overlay.modules.permissioncontroller
+com.android.emergency
+com.google.android.gms.location.history
+com.miui.aod
+com.qualcomm.location
+com.google.android.gm
+com.android.carrierdefaultapp
+com.android.backupconfirm
+com.google.android.apps.tachyon
+com.google.android.hotspot2.osulogin
+com.android.server.telecom.overlay.miui
+com.android.mtp
+com.xiaomi.hypercomm
+com.android.phone.auto_generated_characteristics_rro
+com.miui.screenrecorder
+com.google.android.apps.magazines
+com.android.theme.font.notoserifsource
+com.qualcomm.qti.remoteSimlockAuth
+com.qti.ltebc
+com.qualcomm.qti.xrcb
+com.android.ncm.overlay.common
+com.miui.guardprovider
+com.miui.cloudbackup
+com.android.wallpapercropper
+com.google.android.wifi.resources.overlay.common
+com.xiaomi.glgm
+com.google.android.overlay.gmsconfig.geotz
+com.android.internal.systemui.navbar.gestural
+com.android.soundrecorder
+com.miui.systemui.overlay.devices.android
+com.android.settings.intelligence
+com.qualcomm.timeservice
+com.android.devicediagnostics
+com.lbe.security.miui
+com.xiaomi.midrop
+com.google.android.overlay.gmsconfig.personalsafety
+com.qualcomm.wfd.service
+com.block.puzzle.game.hippo.mi
+com.android.overlay.gmssettings
+com.google.android.federatedcompute
+com.google.android.webview
+com.google.android.sdksandbox
+com.miui.securityadd
+com.google.android.cellbroadcastservice
+com.android.thememanager.customizethemeconfig.config.overlay
+com.android.internal.systemui.navbar.threebutton
+com.android.egg
+com.xiaomi.touchservice
+com.google.android.overlay.modules.modulemetadata.forframework
+com.miui.gallery
+com.google.android.packageinstaller
+com.android.se
+com.alibaba.aliexpresshd
+com.google.android.apps.youtube.music
+com.android.stk
+com.android.overlay.systemui
+com.miui.calculator
+com.android.bips
+com.qualcomm.qti.telephonyservice
+com.google.android.partnersetup
+com.xiaomi.bluetooth
+com.xiaomi.phone.overlay
+com.google.android.projection.gearhead
+com.qualcomm.qti.xrwifi
+com.qualcomm.qti.simcontacts
+com.android.overlay.gmstelephony
+com.xiaomi.finddevice
+com.google.android.feedback
+com.miui.notification
+org.codeaurora.ims
+android.autoinstalls.config.Xiaomi.model
+android.auto_generated_characteristics_rro
+com.google.android.inputmethod.latin
+com.android.phone.cust.overlay.miui
+miui.systemui.plugin
+com.miui.bugreport
+com.miui.yellowpage
+cn.wps.xiaomi.abroad.lite
+com.google.android.uwb.resources
+com.android.providers.downloads.ui
+com.android.ons
+com.google.android.healthconnect.controller
+com.mi.globallayout
+com.xiaomi.ugd
+com.miui.mediaeditor
+com.google.android.setupwizard
+com.miui.system
+com.qualcomm.qti.server.qtiwifi
+com.miui.securitycenter
+com.android.simappdialog
+com.android.wallpaper.livepicker
+com.android.systemui.overlay.common
+com.qualcomm.qti.poweroffalarm
+com.miui.miwallpaper.config.overlay
+com.android.internal.display.cutout.emulation.waterfall
+com.miui.qr
+com.xiaomi.cameramind
+com.google.android.overlay.modules.ext.services
+com.android.uwb.resources.overlay.common
+com.android.systemui.gesture.line.overlay
+com.android.traceur
+com.google.android.apps.messaging
+com.qualcomm.qti.services.systemhelper
+com.android.location.fused
+com.android.cellbroadcastreceiver
+com.google.android.googlequicksearchbox
+com.google.android.modulemetadata
+com.android.settings.overlay.common
+vendor.qti.frameworks.utils
+com.miui.home
+com.google.android.ext.services
+com.google.android.configupdater
+android.qvaoverlay.common
+com.qti.qcc
+org.ifaa.aidl.manager
+com.mintgames.wordtrip
+com.google.android.gms.supervision
+com.android.virtualization.terminal
+com.google.android.server.deviceconfig.resources
+com.google.android.apps.photos
+com.xiaomi.aiasst.vision
+com.qualcomm.qti.workloadclassifier
+com.android.internal.display.cutout.emulation.corner
+com.google.android.gms
+com.mintgames.triplecrush.tile.fun
+com.xiaomi.mtb
+com.mi.appfinder
+com.android.systemui.overlay.miui
+com.milink.service
+com.android.thememanager
+com.android.inputsettings.overlay.miui
+com.miui.huanji
+com.android.printspooler
+com.miui.systemui.devices.overlay
+com.miui.misound
+com.google.android.apps.setupwizard.searchselector
+com.qualcomm.qti.uim
+com.facebook.system
+com.android.soundpicker
+com.mi.global.shop
+com.google.mainline.telemetry
+com.miui.wallpaper.overlay.customize
+com.android.microdroid.empty_payload
+com.android.providers.telephony.auto_generated_characteristics_rro
+com.android.nfc.resources.overlay.common
+com.google.android.cellbroadcastservice.overlay.miui
+com.android.externalstorage
+vendor.qti.imsdatachannel
+com.android.server.telecom
+com.qualcomm.qtil.aptxacu
+com.android.camera
+com.miui.daemon
+com.android.companiondevicemanager.auto_generated_characteristics_rro
+com.google.android.providers.media.module
+com.qualcomm.qti.server.wigig.tethering.rro
+com.android.calllogbackup
+com.qualcomm.atfwd
+com.miui.videoplayer
+com.linkedin.android
+com.google.android.overlay.gmsconfig.comms
+com.miui.securitycore
+com.xiaomi.trustservice
+com.jewelsblast.ivygames.Adventure.free
+com.amazon.mShop.android.shopping
+com.android.dreams.basic
+com.google.android.calendar
+com.google.android.contacts
+com.android.mms.service
+com.google.android.cellbroadcastreceiver
+com.miui.mediaviewer
+com.google.android.uwb.resources.overlay.common
+com.google.android.photopicker
+com.xiaomi.bluetooth.rro.device.config.overlay
+com.xiaomi.phone
+com.xiaomi.micloud.sdk
+com.google.android.apps.wellbeing
+com.qualcomm.qti.devicestatisticsservice
+com.android.virtualmachine.res
+com.google.android.adservices.api
+com.android.wifi.resources.xiaomi
+com.miuix.editor
+com.xiaomi.scanner
+com.android.inputdevices
+com.google.android.appsearch.apk
+com.android.providers.telephony.overlay.miui
+com.qti.qualcomm.datastatusnotification
+com.miui.weather2
+com.qti.dpmserviceapp
+com.google.android.onetimeinitializer
+com.google.android.permissioncontroller
+com.android.carrierconfig.overlay.miui
+com.android.apps.tag
+com.miui.permissioncontroller.overlay
+com.xiaomi.mipicks
+com.qualcomm.qti.ridemodeaudio
+com.qualcomm.qti.ims
+com.google.android.overlay.modules.documentsui
+com.xiaomi.smarthome
+com.google.android.devicelockcontroller
+com.miui.android.fashiongallery
+com.miui.settings.rro.device.hide.statusbar.overlay
+com.xiaomi.account
+com.android.cellbroadcastreceiver.overlay.common
+com.miui.thirdappassistant
+com.android.managedprovisioning
+com.miui.mishare.connectivity
+com.microsoftsdk.crossdeviceservicebroker
+com.zhiliaoapp.musically
+com.xiaomi.mi_connect_service
+com.android.nfc
+com.android.carrierconfig.overlay.common
+com.google.android.gsf
+com.android.systemui.navigation.bar.overlay
+com.mi.globalbrowser
+com.android.internal.display.cutout.emulation.double
+com.android.networkstack.overlay.miui
+com.xiaomi.simactivate.service
+com.google.android.health.connect.backuprestore
+com.mi.globalminusscreen
+com.android.server.telecom.overlay.common
+com.qualcomm.qti.xrvd.service
+com.android.managedprovisioning.overlay
+com.android.systemui
+com.sukhavati.gotoplaying.bubble.BubbleShooter.mint
+com.st.android.nfc_extensions_16
+com.google.android.dialer
+com.qualcomm.qti.uceShimService
+com.android.role.notes.enabled
+com.netflix.mediaclient
+com.google.android.wifi.resources.xiaomi
+com.mi.global.bbs
+com.qti.xdivert
+com.qti.dcf
+com.google.mainline.adservices
+com.qualcomm.qti.qcolor
+com.xiaomi.aicr
+com.android.settings.overlay.miui
+com.android.hotwordenrollment.okgoogle
+com.miui.player
+com.miui.cleaner
+com.android.avatarpicker
+com.miui.phrase
+com.miui.extraphoto
+com.android.deskclock
+com.android.wallpaperbackup
+com.miui.wallpaper.overlay
+vendor.qti.bluetooth.xpan
+com.miui.core
+com.miui.settings.rro.device.type.overlay
+com.android.localtransport
+android
+com.duokan.phone.remotecontroller
+com.miui.compass
+com.longcheertel.AutoTest
+com.logame.eliminateintruder3d
+com.android.hotwordenrollment.xgoogle
+com.qualcomm.qti.dynamicddsservice
+com.google.android.apps.walletnfcrel
+com.block.juggle
+com.android.pacprocessor
+com.miui.accessibility
+com.miui.phone.carriers.overlay.h3g
+com.miui.cotaservice
+com.google.android.safetycenter.resources
+com.google.android.overlay.gmsconfig.searchselector
+com.android.internal.display.cutout.emulation.hole
+com.android.settings
+com.android.internal.display.cutout.emulation.tall
+com.google.android.networkstack.tethering
+com.xiaomi.discover
+com.android.cameraextensions
+com.bsp.logmanager
+com.miui.notes
+com.android.carrierconfig
+com.google.android.videos
+com.xiaomi.continuity.sdkapp
+com.google.android.ext.shared
+com.google.android.apps.bard
+com.xiaomi.xmsfkeeper
+com.android.chrome
+com.qualcomm.qcrilmsgtunnel
+android.overlay.common
+com.facebook.services
+com.google.android.apps.maps
+com.android.compos.payload
+com.google.android.apps.chromecast.app
+com.google.android.as
+com.android.musicfx
+com.android.internal.systemui.navbar.transparent
+android.aosp.overlay.telephony
+com.google.android.marvin.talkback
+vendor.qti.hardware.cacert.server
+com.google.android.wifi.resources
+com.miui.miwallpaper
+vendor.qti.data.ntnsatapp
+com.android.intentresolver
+com.google.android.apps.docs
+com.miui.misightservice
+com.miui.vsimcore
+com.android.certinstaller
+com.google.android.apps.safetyhub
+com.qualcomm.uimremoteclient
+com.android.wifi.dialog
+com.google.android.apps.restore
+com.qualcomm.atfwd2
+com.miui.systemui.carriers.overlay
+com.xiaomi.calendar
+com.miui.backup
+com.qualcomm.qti.powersavemode
+com.android.providers.telephony
+com.miui.settings.rro.device.config.overlay
+com.xiaomi.barrage
+com.google.android.rkpdapp
+com.android.providers.settings
+com.android.overlay.gmssettingprovider
+vendor.qti.iwlan
+com.android.phone
+com.nf.snake
+com.google.android.apps.subscriptions.red
+com.android.stk.overlay.miui
+android.aosp.overlay
+com.android.bluetooth.overlay
+com.google.android.as.oss
+com.android.overlay.gmstelecomm
+com.xiaomi.entitlement.o2
+com.orange.update
+com.android.vpndialogs
+com.miui.screenshot
+com.google.android.overlay.gmsconfig.photos
+com.google.android.tts
+com.android.wifi.resources.overlay.common
+com.google.android.cellbroadcastreceiver.overlay.miui
+com.android.phone.overlay.common
+com.android.htmlviewer
+com.qti.qualcomm.deviceinfo
+com.android.vending
+com.google.android.overlay.modules.captiveportallogin.forframework
+android.overlay.target
+com.miui.system.overlay
+com.android.providers.settings.overlay
+com.google.android.overlay.gmsconfig.gsa
+com.android.providers.userdictionary
+com.android.providers.contactkeys
+com.google.android.overlay.gmsconfig.common
+com.android.cts.ctsshim
+com.android.bluetooth
+com.google.android.ncm.overlay.common
+com.android.storagemanager
+com.fingerprints.sensortesttool
+com.miui.cloudservice
+com.ordinaryjoy.woodblast
+com.miui.miwallpaper.overlay
+com.android.phone.overlay.miui
+com.xiaomi.misettings
+com.android.wifi.resources.overlay.target
+com.android.providers.partnerbookmarks
+com.amazon.appmanager
+com.android.provision
+com.google.ambient.streaming
+com.qualcomm.qti.qms.service.trustzoneaccess
+com.facebook.katana
+com.android.dynsystem
+com.google.android.overlay.devicelockcontroller
+com.google.android.apps.adm
+com.google.android.connectivity.resources
+com.google.android.youtube

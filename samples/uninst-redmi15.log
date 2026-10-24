@@ -1,0 +1,114 @@
+#!/system/bin/sh
+
+# [XDA-DEBLOAT] marks an app named as removable/bloat in this 2020 MIUI community guide; it is not a spyware/malware verdict and is not Redmi 15-specific.
+# Source: https://xdaforums.com/t/debloating-miui-without-root-access-manual-method.4149707/
+
+# games
+pm uninstall --user 0 com.block.puzzle.game.hippo.mi
+pm uninstall --user 0 com.mintgames.wordtrip
+pm uninstall --user 0 com.mintgames.triplecrush.tile.fun
+pm uninstall --user 0 com.jewelsblast.ivygames.Adventure.free
+pm uninstall --user 0 com.logame.eliminateintruder3d
+pm uninstall --user 0 com.block.juggle
+pm uninstall --user 0 com.ordinaryjoy.woodblast
+pm uninstall --user 0 com.nf.snake
+pm uninstall --user 0 com.sukhavati.gotoplaying.bubble.BubbleShooter.mint
+
+# shopping, ads, recommendations
+pm uninstall --user 0 com.alibaba.aliexpresshd
+pm uninstall --user 0 com.amazon.mShop.android.shopping
+pm uninstall --user 0 com.amazon.appmanager
+pm uninstall --user 0 com.mi.global.shop
+pm uninstall --user 0 com.xiaomi.mipicks
+pm uninstall --user 0 com.xiaomi.discover
+pm uninstall --user 0 com.mi.globalminusscreen
+pm uninstall --user 0 com.mi.globalbrowser
+# [XDA-DEBLOAT] XDA guide describes this as an ad-serving app.
+pm uninstall --user 0 com.miui.msa.global
+pm uninstall --user 0 com.miui.yellowpage
+pm uninstall --user 0 com.miui.thirdappassistant
+
+# social media
+# [XDA-DEBLOAT] XDA guide calls these Facebook bloat; not a malware finding.
+pm uninstall --user 0 com.facebook.appmanager
+pm uninstall --user 0 com.facebook.services
+pm uninstall --user 0 com.facebook.system
+pm uninstall --user 0 com.facebook.katana
+pm uninstall --user 0 com.linkedin.android
+pm uninstall --user 0 com.zhiliaoapp.musically
+# Xiaomi Community — official Xiaomi fan forum/community app; may be relevant to the regional bootloader-unlock flow.
+# Keep installed until device binding and unlock-request eligibility are confirmed.
+# pm uninstall --user 0 com.mi.global.bbs
+
+# news
+# Google News — news feed and article aggregation.
+pm uninstall --user 0 com.google.android.apps.magazines
+
+# media (video, audio) playback clients
+# [XDA-DEBLOAT] The old XDA guide lists YouTube as optional Google bloat.
+pm uninstall --user 0 com.google.android.youtube
+pm uninstall --user 0 com.google.android.apps.youtube.music
+# [XDA-DEBLOAT] The old XDA guide lists this Google video app as optional; now Google TV.
+pm uninstall --user 0 com.google.android.videos
+pm uninstall --user 0 com.netflix.mediaclient
+pm uninstall --user 0 com.miui.player
+pm uninstall --user 0 com.miui.videoplayer
+
+# file sharing and file managers
+# [XDA-DEBLOAT] XDA guide lists ShareMe/Mi Drop as removable.
+pm uninstall --user 0 com.xiaomi.midrop
+pm uninstall --user 0 com.miui.mishare.connectivity
+pm uninstall --user 0 com.miui.huanji
+# [XDA-DEBLOAT] XDA guide describes Xiaomi File Manager as ad-based.
+# Install and test Fossify File Manager first; keep Android storage/media providers and DocumentsUI.
+pm uninstall --user 0 com.mi.android.globalFileexplorer
+pm uninstall --user 0 com.google.android.apps.nbu.files
+
+# GOOGLE BLOAT
+# Gmail — email client.
+pm uninstall --user 0 com.google.android.gm
+# Google Maps — maps, navigation, and local search.
+pm uninstall --user 0 com.google.android.apps.maps
+# Google Photos — photo gallery and Google photo-backup client; check your backup setup first.
+pm uninstall --user 0 com.google.android.apps.photos
+# [XDA-DEBLOAT] Google Meet (formerly Duo) — video calls and meetings; listed as optional by XDA.
+pm uninstall --user 0 com.google.android.apps.tachyon
+# Google Home — controls Chromecast, Nest, and Google Home devices; also provides casting controls.
+pm uninstall --user 0 com.google.android.apps.chromecast.app
+# Google Drive/Docs — cloud files and document access.
+pm uninstall --user 0 com.google.android.apps.docs
+# Google Calendar — calendar client.
+pm uninstall --user 0 com.google.android.calendar
+# [XDA-DEBLOAT] Google app — Search, Discover, and Assistant entry points; XDA warns these features are lost on removal.
+pm uninstall --user 0 com.google.android.googlequicksearchbox
+
+# XIOAMI BLOAT
+# [XDA-DEBLOAT] Mi Wallpaper Carousel — rotating lock-screen wallpapers/content; XDA lists it as removable.
+pm uninstall --user 0 com.miui.android.fashiongallery
+# Xiaomi Home — controls Xiaomi smart-home devices; remove only if you do not use them.
+pm uninstall --user 0 com.xiaomi.smarthome
+pm uninstall --user 0 com.miui.weather2
+
+
+# KEEP UTILS BY NOW;
+# Utilities are retained for now; the uninstall commands below are intentionally disabled.
+# [XDA-CAUTION] Xiaomi Gallery — local photo/video gallery. An older XDA thread reports camera/photo saving problems on some MIUI builds after removal; test separately.
+# pm uninstall --user 0 com.miui.gallery
+# Xiaomi Calculator — calculator utility.
+# pm uninstall --user 0 com.miui.calculator
+# Xiaomi Notes — notes and reminders.
+# pm uninstall --user 0 com.miui.notes
+# Xiaomi Compass — compass utility.
+# pm uninstall --user 0 com.miui.compass
+# Xiaomi Screen Recorder — screen capture with audio.
+# pm uninstall --user 0 com.miui.screenrecorder
+# Xiaomi Media Editor — edits photos/videos.
+# pm uninstall --user 0 com.miui.mediaeditor
+# Xiaomi Scanner — document/QR scanning utility.
+# pm uninstall --user 0 com.xiaomi.scanner
+# WPS Office — Word/Sheet/PowerPoint/PDF productivity suite.
+# pm uninstall --user 0 cn.wps.moffice_eng
+# WPS Office Lite/vendor variant.
+# pm uninstall --user 0 cn.wps.xiaomi.abroad.lite
+# Google Wallet — payment cards, passes, and contactless payments; removal disables this phone's Wallet access.
+# pm uninstall --user 0 com.google.android.apps.walletnfcrel
